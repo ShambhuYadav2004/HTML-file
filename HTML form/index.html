@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div>
+            Name:<br>
+            <input type="text" size="80" placeholder="Enter Your Name">
+            </div>
+            <div>
+            Email<br>
+            <input type="text" placeholder="Enter your email" size="80">
+            </div>
+            <div>
+            Age:<br>
+                <input type="text" size="80" placeholder="Enter Your Name">
+            </div>
+            <div>
+            Which option best decsribes you?:<br>
+                <select>
+                    <option value="student" selected>Student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="experiences">Experienced</option>
+                </select>
+            </div>
+            <div>
+                Would you recommend geeksforgeeks to a friend?<br>
+                <ul >
+
+                <li><input type="radio" name="gender" value="yes" >Yes</li>
+                <li><input type="radio" name="gender" value="No" >No</li>
+                <li><input type="radio" name="gender" value="Maybe" >Maybe</li>
+                </ul>
+
+            </div>
+            <div>
+                Language and framework known
+                <br>
+                <ul class="skills">
+                    <li><input type="checkbox" name="Skill1" value="yes" >C</li>
+                    <li><input type="checkbox" name="Skill2" value="yes" >C++</li>
+                    <li><input type="checkbox" name="Skill3" value="yes" >C#</li>
+                    <li><input type="checkbox" name="Skill4" value="yes" >Java</li>
+                    <li><input type="checkbox" name="Skill5" value="yes" >Python</li>
+                    <li><input type="checkbox" name="Skill6" value="yes" >Javascript</li>
+                    <li><input type="checkbox" name="Skill7" value="yes" >React</li>
+                    <li><input type="checkbox" name="Skill8" value="yes" >Angular</li>
+                    <li><input type="checkbox" name="Skill9" value="yes" value="yes" >Django</li>
+                    <li><input type="checkbox" name="Skill10" value="yes" >Spring</li>
+                </ul>
+            </div>
+            <div>Any comments or suggestion.<br>
+                <textarea cols="70px" rows="2px">Your suggestion</textarea></div>
+            
+
+        </form>
+        <div class="submit">
+            <input type="submit" value="submit" width="200px">
+        </div>
+    </div>
+</body>
+</html>

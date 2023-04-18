@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+.content{
+    background-color: white;
+}
+.flex{
+    display: flex;
+}
+.space{
+    padding: 3px;
+}

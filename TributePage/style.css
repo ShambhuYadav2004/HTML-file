@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: rgb(79, 113, 113);
+    min-height: 100vh;
+    border: 10px solid #090916;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.top-section h4{
+    font-size: 30px;
+    text-align: end;
+}
+.image-section , img{
+    width: 300px;
+    height: 320px;
+}
+.image-section{
+    border-radius: 60%;
+    overflow: hidden;
+}
+.about-section h2{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.about-section p{
+    font-size:20px ;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: justify;
+}
+.biography-section{
+    margin-top: 30px;
+
+}
+.biography-section h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.biography-section ul{
+    margin-left: 30px;
+}
+.biography-section li{
+    margin-bottom: 15px;
+    font-size:  20px ;
+}
+footer{
+    margin: 60px;
+    font-size: 20px;
+
+}
+footer a{
+    text-decoration: none;
+    
+}
+footer p{
+    text-align: end;
+}

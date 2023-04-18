@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.container form{
+    margin-left: 50px;
+    padding-top: 15px; 
+    font-size: 20px;
+}
+div{
+    margin-top: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.skills{
+    list-style-type: none;
+}
+.submit{
+    text-align: center;
+    width: 3px;
+    height: 20px;
+}
